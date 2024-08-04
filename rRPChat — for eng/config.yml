@@ -1,0 +1,19 @@
+me:
+  enabled: true
+  radius: 10
+  usage: '[§c!§f] §cUse it: /%label% <message>'
+  format: '§e* %name% %message%'
+do:
+  enabled: true
+  radius: 10
+  usage: '[§c!§f] §cUse it: /%label% <message>'
+  format: '§e*§9 %name% %message%'
+try:
+  enabled: true
+  radius: 10
+  usage: '[§c!§f] §cUse it: /%label% <message>'
+  format: '* %name% %message% %result% §f*'
+
+results:
+  - '§aSuccessful'
+  - '§cNot successful'
