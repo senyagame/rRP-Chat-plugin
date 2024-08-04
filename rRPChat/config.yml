@@ -1,0 +1,19 @@
+me:
+  enabled: true
+  radius: 10
+  usage: '[§c!§f] §cИспользуй: /%label% <сообщение>'
+  format: '§e* %name% %message%'
+do:
+  enabled: true
+  radius: 10
+  usage: '[§c!§f] §cИспользуй: /%label% <сообщение>'
+  format: '§e*§9 %name% %message%'
+try:
+  enabled: true
+  radius: 10
+  usage: '[§c!§f] §cИспользуй: /%label% <сообщение>'
+  format: '* %name% %message% %result% §f*'
+
+results:
+  - '§aУспешно'
+  - '§cНеуспешно'
